@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: core, db
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    org.yixi.mallcore:  DEBUG

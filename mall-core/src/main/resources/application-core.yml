@@ -1,0 +1,22 @@
+litemall:
+  wx:
+    app-id: 
+    app-secret:
+    mch-id: 111111
+    mch-key: xxxxxx
+    notify-url: http://www.example.com/wx/order/pay-notify
+    # 商户证书文件路径
+    # 请参考“商户证书”一节 https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=4_3
+    key-path: xxxxx
+    # 消息推送配置token
+    token:
+    # 消息推送配置AesKey
+    aes-key: ss
+
+  storage:
+    active: local
+    local:
+      storagePath: storage
+      address: http://localhost:8080/wx/storage/fetch/
+
+
